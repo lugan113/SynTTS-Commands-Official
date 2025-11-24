@@ -1,0 +1,70 @@
+{
+  "model_name": "crnn_standard_english",
+  "model_type": "CRNN (CNN + RNN)",
+  "parameters": 1083031,
+  "config": {
+    "input_shape": [
+      49,
+      40,
+      1
+    ],
+    "num_classes": 23,
+    "batch_size": 64,
+    "epochs": 50,
+    "learning_rate": 0.001,
+    "cnn_filters": [
+      32,
+      64,
+      128
+    ],
+    "rnn_units": 128,
+    "dropout_rate": 0.3,
+    "model_variant": "standard"
+  },
+  "test_results": {
+    "loss": 0.016290882602334023,
+    "compile_metrics": 0.9949761629104614
+  },
+  "label_mapping": {
+    "Play": 0,
+    "Pause": 1,
+    "Resume": 2,
+    "Play from start": 3,
+    "Repeat song": 4,
+    "Previous track": 5,
+    "Next track": 6,
+    "Last song": 7,
+    "Skip song": 8,
+    "Jump to first track": 9,
+    "Volume up": 10,
+    "Volume down": 11,
+    "Mute": 12,
+    "Set volume to 50%": 13,
+    "Max volume": 14,
+    "Answer call": 15,
+    "Hang up": 16,
+    "Decline call": 17,
+    "Hey Siri": 18,
+    "OK Google": 19,
+    "Hey Google": 20,
+    "Alexa": 21,
+    "Hi Bixby": 22
+  },
+  "training_history": {
+    "final_train_accuracy": 0.9921277761459351,
+    "final_val_accuracy": 0.9930745363235474,
+    "final_train_loss": 0.022390136495232582,
+    "final_val_loss": 0.01610979437828064,
+    "total_epochs": 50
+  },
+  "model_architecture": {
+    "cnn_filters": [
+      32,
+      64,
+      128
+    ],
+    "rnn_units": 128,
+    "dropout_rate": 0.3
+  },
+  "timestamp": "2025-11-06 16:51:24.807631"
+}
