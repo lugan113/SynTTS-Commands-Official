@@ -1,0 +1,54 @@
+{
+  "model_name": "audio_mobilenet_alpha_0.75_english",
+  "model_type": "Audio-MobileNet V1",
+  "parameters": 2651783,
+  "config": {
+    "input_shape": [
+      49,
+      40,
+      1
+    ],
+    "num_classes": 23,
+    "batch_size": 32,
+    "epochs": 50,
+    "learning_rate": 0.001,
+    "alpha": 0.75
+  },
+  "test_results": {
+    "loss": 0.01605808176100254,
+    "compile_metrics": 0.9941388368606567
+  },
+  "label_mapping": {
+    "Play": 0,
+    "Pause": 1,
+    "Resume": 2,
+    "Play from start": 3,
+    "Repeat song": 4,
+    "Previous track": 5,
+    "Next track": 6,
+    "Last song": 7,
+    "Skip song": 8,
+    "Jump to first track": 9,
+    "Volume up": 10,
+    "Volume down": 11,
+    "Mute": 12,
+    "Set volume to 50%": 13,
+    "Max volume": 14,
+    "Answer call": 15,
+    "Hang up": 16,
+    "Decline call": 17,
+    "Hey Siri": 18,
+    "OK Google": 19,
+    "Hey Google": 20,
+    "Alexa": 21,
+    "Hi Bixby": 22
+  },
+  "training_history": {
+    "final_train_accuracy": 0.9947882294654846,
+    "final_val_accuracy": 0.9947512149810791,
+    "final_train_loss": 0.013248414732515812,
+    "final_val_loss": 0.016662759706377983,
+    "total_epochs": 50
+  },
+  "timestamp": "2025-11-11 21:19:03.383446"
+}
