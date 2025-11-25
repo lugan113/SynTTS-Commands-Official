@@ -82,6 +82,7 @@ We present a comprehensive benchmark of **six representative acoustic models** o
 | **MobileNet-V1** | 0.0167 | **99.50%** | 2.65M | **0.0552** | 97.92% | 2.65M |
 | **EfficientNet** | 0.0182 | 99.41% | 4.72M | 0.0701 | 97.93% | 4.72M |
 
+
 ### 🔍 Key Findings
 
 Our results demonstrate that the **SynTTS-Commands-Media** dataset supports high-accuracy command recognition in both languages. Notably, the top-performing models achieve over **99.4% accuracy on English** and nearly **98% on Chinese**, confirming the dataset’s quality and suitability for real-world deployment.
@@ -91,6 +92,20 @@ Our results demonstrate that the **SynTTS-Commands-Media** dataset supports high
 - **Accuracy-Complexity Trade-off**: Lightweight models exhibit a clear trade-off. **MicroCNN**, with only ~4.2K parameters, achieves 93.22% accuracy on English but drops to 80.14% on Chinese, highlighting the increased difficulty of modeling tonal and phonetic richness in Mandarin with ultra-compact architectures. DS-CNN and TC-ResNet, with under 70K parameters, already recover strong performance (>96.5% in both languages), underscoring their efficiency for resource-constrained applications.
 
 Overall, the benchmark establishes strong baselines across a wide spectrum of model scales—from ultra-light MicroCNN to modern EfficientNet—demonstrating that moderate-complexity models can deliver near-SOTA performance suitable for edge deployment.
+
+## 🗺️ Roadmap & Future Expansion
+
+We are expanding SynTTS-Commands beyond multimedia to support broader Edge AI applications. 
+
+👉 **[Click here to view our detailed Future Work Plan & Command List](Future_Work_Plan.md)**
+
+Our upcoming domains include:
+*   🏠 **Smart Home:** Far-field commands for lighting and appliances.
+*   🚗 **In-Vehicle:** Robust commands optimized for high-noise driving environments.
+*   🚑 **Urgent Assistance:** Safety-critical keywords (e.g., "Call 911", "Help me") focusing on high recall.
+
+We invite the community to review our [Command Roadmap](Future_Work_Plan.md) and suggest additional keywords!
+
 
 ## 📜 Citation
 
@@ -109,5 +124,7 @@ If you use these **pre-trained models** or the **SynTTS-Commands dataset** in yo
       url={https://arxiv.org/abs/2511.07821}, 
       doi={10.48550/arXiv.2511.07821}
 }
+
+
 
 
