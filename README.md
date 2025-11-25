@@ -18,11 +18,10 @@
 
 <p align="center">
   <a href="#-introduction">Introduction</a> •
-  <a href="#-Dataset Overview">Dataset</a> •
-  <a href="#-commands">Command Categories</a> •
-  <a href="#-benchmark">Benchmark</a> •
-  <a href="#-roadmap">Roadmap</a> •
-  <a href="#-benchmark-results">Benchmarks</a> •
+  <a href="#-dataset-overview">Dataset</a> •
+  <a href="#-media-command-categories">Command Categories</a> •
+  <a href="#-benchmark-results-and-analysis">Benchmarks</a> •
+  <a href="#-roadmap--future-expansion">Roadmap</a> •
   <a href="#-citation">Citation</a>
 </p>
 
