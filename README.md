@@ -21,7 +21,7 @@
   <a href="#-dataset-overview">Dataset</a> •
   <a href="#-media-command-categories">Command Categories</a> •
   <a href="#-benchmark-results-and-analysis">Benchmarks</a> •
-  <a href="#-roadmap-future-expansion">Roadmap</a> •
+  <a href="#-roadmap-&-future-expansion">Roadmap</a> •
   <a href="#-citation">Citation</a>
 </p>
 
