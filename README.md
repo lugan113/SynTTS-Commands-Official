@@ -18,9 +18,10 @@
 
 <p align="center">
   <a href="#-introduction">Introduction</a> •
-  <a href="#-resources">Resources</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-usage">Usage</a> •
+  <a href="#-dataset">Dataset</a> •
+  <a href="#-commands">Command Categories</a> •
+  <a href="#-benchmark">Benchmark</a> •
+  <a href="#-roadmap">Roadmap</a> •
   <a href="#-benchmark-results">Benchmarks</a> •
   <a href="#-citation">Citation</a>
 </p>
@@ -39,6 +40,26 @@
 | **💾 Dataset** | **384k+** Audio samples (Wave files) | [🤗 HF Dataset](https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Dataset) |
 | **🧠 Models** | Pre-trained checkpoints for benchmarks | [🤗 HF Models](https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Benchmarks) |
 
+## 📊 Dataset Overview
+
+### Statistics
+
+The **SynTTS-Commands-Media-Dataset** contains a total of **384,621 speech samples**, covering **48 distinct multimedia control commands**. It is divided into four subsets with the following distribution:
+
+| Subset | Speakers | Commands | Samples | Duration (hrs) | Size (GB) |
+|------|----------|--------|----------|------------|----------|
+| Free-ST-Chinese | 855 | 25 | 21,214 | 6.82 | 2.19 |
+| Free-ST-English | 855 | 23 | 19,228 | 4.88 | 1.57 |
+| VoxCeleb1&2-Chinese | 7,245 | 25 | 180,331 | 58.03 | 18.6 |
+| VoxCeleb1&2-English | 7,245 | 23 | 163,848 | 41.6 | 13.4 |
+| **Total** | **8,100** | **48** | **384,621** | **111.33** | **35.76** |
+
+### Dataset Highlights
+
+- **Massive Scale**: Totaling **111.33 hours** and **35.76 GB** of synthetic speech data, making it one of the largest synthetic speech command datasets for academic research.
+- **Extensive Speaker Diversity**: Covers **8,100 unique speakers**, spanning various accent groups, age ranges, and recording conditions.
+- **Multi-Dimensional Research Support**: The four-subset structure enables research into cross-lingual speaker adaptation, speaker diversity effects, and acoustic robustness in different recording environments.
+- **Application-Oriented**: Specifically focused on multimedia playback control scenarios, providing high-quality training data for real-world deployment.
 
 ## 🎯 Media Command Categories
 
@@ -83,15 +104,7 @@ We present a comprehensive benchmark of **six representative acoustic models** o
 | **EfficientNet** | 0.0182 | 99.41% | 4.72M | 0.0701 | 97.93% | 4.72M |
 
 
-### 🔍 Key Findings
 
-Our results demonstrate that the **SynTTS-Commands-Media** dataset supports high-accuracy command recognition in both languages. Notably, the top-performing models achieve over **99.4% accuracy on English** and nearly **98% on Chinese**, confirming the dataset’s quality and suitability for real-world deployment.
-
-- **Top Performers**: Among all models, **CRNN** attains the best English accuracy (**99.50%**) and the lowest loss (0.0163). **MobileNet-V1** yields the lowest loss on Chinese (0.0552) and competitive English performance (matching CRNN’s 99.50% accuracy). Interestingly, **EfficientNet** shows slightly higher Chinese accuracy (97.93%) than MobileNet-V1, suggesting better calibration or robustness despite a higher loss.
-
-- **Accuracy-Complexity Trade-off**: Lightweight models exhibit a clear trade-off. **MicroCNN**, with only ~4.2K parameters, achieves 93.22% accuracy on English but drops to 80.14% on Chinese, highlighting the increased difficulty of modeling tonal and phonetic richness in Mandarin with ultra-compact architectures. DS-CNN and TC-ResNet, with under 70K parameters, already recover strong performance (>96.5% in both languages), underscoring their efficiency for resource-constrained applications.
-
-Overall, the benchmark establishes strong baselines across a wide spectrum of model scales—from ultra-light MicroCNN to modern EfficientNet—demonstrating that moderate-complexity models can deliver near-SOTA performance suitable for edge deployment.
 
 ## 🗺️ Roadmap & Future Expansion
 
