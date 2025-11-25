@@ -62,7 +62,7 @@ We present a comprehensive benchmark of **six representative acoustic models** o
 
 ### 🔍 Key Findings
 
-Our results demonstrate that the **SynTTS-Commands** dataset supports high-accuracy command recognition in both languages. Notably, the top-performing models achieve over **99.4% accuracy on English** and nearly **98% on Chinese**, confirming the dataset’s quality and suitability for real-world deployment.
+Our results demonstrate that the **SynTTS-Commands-Media** dataset supports high-accuracy command recognition in both languages. Notably, the top-performing models achieve over **99.4% accuracy on English** and nearly **98% on Chinese**, confirming the dataset’s quality and suitability for real-world deployment.
 
 - **Top Performers**: Among all models, **CRNN** attains the best English accuracy (**99.50%**) and the lowest loss (0.0163). **MobileNet-V1** yields the lowest loss on Chinese (0.0552) and competitive English performance (matching CRNN’s 99.50% accuracy). Interestingly, **EfficientNet** shows slightly higher Chinese accuracy (97.93%) than MobileNet-V1, suggesting better calibration or robustness despite a higher loss.
 
