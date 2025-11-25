@@ -31,11 +31,6 @@
 
 **SynTTS-Commands** is a large-scale, multilingual (English & Chinese) synthetic speech command dataset designed for **low-power Keyword Spotting (KWS)** tasks. Generated using state-of-the-art TTS technology (CosyVoice 2), it addresses the data scarcity bottleneck in TinyML and Edge AI.
 
-This repository contains:
-1.  **Data Generation Scripts**: Code used to generate high-quality synthetic speech.
-2.  **Training Code**: Implementation of KWS models (MicroCNN, DS-CNN, MobileNet-V1, etc.).
-3.  **Evaluation Scripts**: Tools to reproduce the benchmark results presented in the paper.
-
 ## 🔗 Resources
 
 | Resource | Description | Link |
@@ -44,7 +39,34 @@ This repository contains:
 | **💾 Dataset** | **384k+** Audio samples (Wave files) | [🤗 HF Dataset](https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Dataset) |
 | **🧠 Models** | Pre-trained checkpoints for benchmarks | [🤗 HF Models](https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Benchmarks) |
 
----
+
+## 🎯 Media Command Categories
+
+### English Media Control Commands (23 Classes)
+
+Playback Control: "Play", "Pause", "Resume", "Play from start", "Repeat song"
+
+Navigation: "Previous track", "Next track", "Last song", "Skip song", "Jump to first track"
+
+Volume Control: "Volume up", "Volume down", "Mute", "Set volume to 50%", "Max volume"
+
+Communication: "Answer call", "Hang up", "Decline call"
+
+Wake Words: "Hey Siri", "OK Google", "Hey Google", "Alexa", "Hi Bixby"
+
+### Chinese Media Control Commands (25 Classes)
+
+Playback Control: "播放", "暂停", "继续播放", "从头播放", "单曲循环"
+
+Navigation: "上一首", "下一首", "上一曲", "下一曲", "跳到第一首", "播放上一张专辑"
+
+Volume Control: "增大音量", "减小音量", "静音", "音量调到50%", "音量最大"
+
+Communication: "接听电话", "挂断电话", "拒接来电"
+
+Wake Words: "小爱同学", "Hello 小智", "小艺小艺", "嗨 三星小贝", "小度小度", "天猫精灵"
+
+
 ## 📈 Benchmark Results and Analysis
 
 We present a comprehensive benchmark of **six representative acoustic models** on the SynTTS-Commands-Media Dataset across both English (EN) and Chinese (ZH) subsets. All models are evaluated in terms of **classification accuracy**, **cross-entropy loss**, and **parameter count**, providing insights into the trade-offs between performance and model complexity in multilingual voice command recognition.
