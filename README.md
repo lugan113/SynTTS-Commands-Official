@@ -21,7 +21,7 @@
   <a href="#-dataset-overview">Dataset</a> •
   <a href="#-media-command-categories">Command Categories</a> •
   <a href="#-benchmark-results-and-analysis">Benchmarks</a> •
-  <a href="#-roadmap--future-expansion">Roadmap</a> •
+  <a href="#roadmap">Roadmap</a> •
   <a href="#-citation">Citation</a>
 </p>
 
@@ -105,7 +105,7 @@ We present a comprehensive benchmark of **six representative acoustic models** o
 
 
 
-## 🗺️ Roadmap & Future Expansion
+## <span id="roadmap"></span>🗺️ Roadmap & Future Expansion
 
 We are expanding SynTTS-Commands beyond multimedia to support broader Edge AI applications. 
 
