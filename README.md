@@ -5,7 +5,7 @@
   
   [![arXiv](https://img.shields.io/badge/arXiv-2511.07821-b31b1b.svg)](https://arxiv.org/abs/2511.07821)
   [![Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-ffd21e)](https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Dataset)
-  [![Benchmarks](https://img.shields.io/badge/🤗%20Hugging%20Face-Benchmarks-ffd21e)]([https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Benchmarks])
+  [![Benchmarks](https://img.shields.io/badge/🤗%20Hugging%20Face-Benchmarks-ffd21e)](https://huggingface.co/lugan/SynTTS-Commands-Media-Benchmarks)
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 </div>
