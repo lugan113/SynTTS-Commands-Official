@@ -39,6 +39,26 @@
 | **💾 Dataset** | **384k+** Audio samples (Wave files) | [🤗 HF Dataset](https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Dataset) |
 | **🧠 Models** | Pre-trained checkpoints for benchmarks | [🤗 HF Models](https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Benchmarks) |
 
+## 🏆 Sim-to-Real Benchmarks
+
+We validated the dataset using **BCResNet** on two standard real-world test sets:
+1. **English:** [Google Speech Commands (GSC)](https://arxiv.org/abs/1804.03209) test set.
+2. **Chinese:** [MobvoiHotwords](https://www.openslr.org/87) (*Hi Xiaowen*, *Nihao Wenwen*, etc.).
+
+Results show that using **SynTTS-Commands** as a foundation with just **50 real samples** achieves production-ready performance:
+
+| Test Dataset | Strategy | Precision | Recall | Accuracy |
+| :--- | :--- | :---: | :---: | :---: |
+| **Google Speech Commands** | Zero-shot | 0.89 | 0.88 | 88.0% |
+| *(English)* | **50-shot** | **0.93** | **0.93** | **93.0%** |
+| | | | | |
+| **MobvoiHotwords** | Zero-shot | **0.96** | 0.44 | 67.8% |
+| *(Chinese)* | **50-shot** | 0.96 | **0.96** | **95.8%** |
+
+> **Key Insight:** On the real-world **MobvoiHotwords** dataset, 50-shot adaptation dramatically improved recall (44% → 96%) while maintaining exceptional precision (Low False Alarm).
+
+
+
 ## 📊 Dataset Overview
 
 ### Statistics
