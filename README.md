@@ -3,7 +3,7 @@
 <!-- Badges -->
 <div align="center">
   
-  [![arXiv](https://img.shields.io/badge/arXiv-2511.07821-b31b1b.svg)](https://arxiv.org/abs/2511.07821)
+  
   [![Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-ffd21e)](https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Dataset)
   [![Benchmarks](https://img.shields.io/badge/🤗%20Hugging%20Face-Benchmarks-ffd21e)](https://huggingface.co/lugan/SynTTS-Commands-Media-Benchmarks)
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -21,8 +21,7 @@
   <a href="#-dataset-overview">Dataset</a> •
   <a href="#-media-command-categories">Command Categories</a> •
   <a href="#-benchmark-results-and-analysis">Benchmarks</a> •
-  <a href="#roadmap">Roadmap</a> •
-  <a href="#-citation">Citation</a>
+  <a href="#roadmap">Roadmap</a> 
 </p>
 
 ---
@@ -139,23 +138,7 @@ Our upcoming domains include:
 We invite the community to review our [Command Roadmap](Future_Work_Plan.md) and suggest additional keywords!
 
 
-## 📜 Citation
 
-If you use these **pre-trained models** or the **SynTTS-Commands dataset** in your research, please cite our paper:
-
-**[SynTTS-Commands: A Public Dataset for On-Device KWS via TTS-Synthesized Multilingual Speech](https://arxiv.org/abs/2511.07821)**
-
-```bibtex
-@misc{gan2025synttscommands,
-      title={SynTTS-Commands: A Public Dataset for On-Device KWS via TTS-Synthesized Multilingual Speech}, 
-      author={Lu Gan and Xi Li},
-      year={2025},
-      eprint={2511.07821},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD},
-      url={https://arxiv.org/abs/2511.07821}, 
-      doi={10.48550/arXiv.2511.07821}
-}
 
 
 
