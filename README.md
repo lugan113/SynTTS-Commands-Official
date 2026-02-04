@@ -1,14 +1,6 @@
 # Syntts-Commands-Official：On-Device KWS via Synthetic Speech
 
-<!-- Badges -->
-<div align="center">
-  
-  
-  [![Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-ffd21e)](https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Dataset)
-  [![Benchmarks](https://img.shields.io/badge/🤗%20Hugging%20Face-Benchmarks-ffd21e)](https://huggingface.co/lugan/SynTTS-Commands-Media-Benchmarks)
-  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-</div>
 
 <br>
 
@@ -32,11 +24,10 @@
 
 ## 🔗 Resources
 
-| Resource | Description | Link |
+| Resource | Description |  |
 | :--- | :--- | :--- |
-| **📄 Paper** | Full technical report and analysis | [arXiv:2511.07821](https://arxiv.org/abs/2511.07821) |
-| **💾 Dataset** | **384k+** Audio samples (Wave files) | [🤗 HF Dataset](https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Dataset) |
-| **🧠 Models** | Pre-trained checkpoints for benchmarks | [🤗 HF Models](https://huggingface.co/datasets/lugan/SynTTS-Commands-Media-Benchmarks) |
+| **💾 Dataset** | **384k+** Audio samples (Wave files) |  
+| **🧠 Models** | Pre-trained checkpoints for benchmarks | 
 
 ## 🏆 Sim-to-Real Benchmarks
 
