@@ -29,6 +29,11 @@
 | **💾 Dataset** | **384k+** Audio samples (Wave files) |  
 | **🧠 Models** | Pre-trained checkpoints for benchmarks | 
 
+**Due to the double-blind review policy, the link to the full dataset (hosted on Hugging Face) is masked to protect author identity.**
+
+**📂 A sample subset is provided in the data_samples/ folder of this repository for inspection.**
+
+
 ## 🏆 Sim-to-Real Benchmarks
 
 We validated the dataset using **BCResNet** on two standard real-world test sets:
